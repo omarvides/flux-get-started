@@ -34,7 +34,8 @@ spec:
             - "1"
       containers:
         - name: podinfod
-          image: stefanprodan/podinfo:3.1.5
+          # image: stefanprodan/podinfo:3.1.5
+          image: stefanprodan/podinfo:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
@@ -67,6 +68,7 @@ spec:
             httpGet:
               path: /readyz
               port: 9898
+            initialDelaySeconds: 15
           resources:
             limits:
               cpu: 1000m
