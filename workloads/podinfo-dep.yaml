@@ -56,7 +56,7 @@ spec:
             - --level=info
             - --random-delay=false
             - --random-error=false
-            - --ui-message='Example'
+            - --ui-message=Readines probe test
           env:
             - name: PODINFO_UI_COLOR
               value: "#34577c"
@@ -68,7 +68,7 @@ spec:
             httpGet:
               path: /readyz
               port: 9898
-            initialDelaySeconds: 15
+            initialDelaySeconds: 30
           resources:
             limits:
               cpu: 1000m
