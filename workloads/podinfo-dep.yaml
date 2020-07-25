@@ -56,7 +56,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
-        - --ui-message=Testing notifications 4
+        - --ui-message=Testing notifications 5
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
