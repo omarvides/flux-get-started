@@ -56,7 +56,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
-        - --ui-message=Readines probe test
+        - --ui-message=Welcome to flux
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
