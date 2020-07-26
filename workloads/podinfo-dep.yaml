@@ -28,7 +28,6 @@ spec:
     spec:
       initContainers:
       - name: init
-        image: alpine:3.10
         command:
         - sleep
         - "1"
